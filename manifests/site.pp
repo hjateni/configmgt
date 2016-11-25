@@ -31,13 +31,13 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'mclient' {
+node 'agent1','agent2' {
 
    include '::role::hpcclient'
 
 }
 
-node 'mserver' {
+node 'server1' {
 
   include '::role::hpcsoftware'
 }
