@@ -1,15 +1,21 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f560cad7e8da2162f858b2bf680c6c6c734b7e5
 # Puppet forge
 forge "http://forge.puppetlabs.com"
 moduledir = 'modules'
 # relative path to environment (default)
 # Puppet Forge modules
 mod "puppetlabs/inifile", "1.4.1"
+<<<<<<< HEAD
 mod 'puppetlabs-mysql', '3.10.0'
 mod 'example42-php', '2.0.27'
 mod 'derdanne/nfs',  '1.0.1'
 mod 'puppetlabs/ntp', '6.0.0'
 mod 'puppetlabs-motd', '1.4.0'
+=======
+>>>>>>> 0f560cad7e8da2162f858b2bf680c6c6c734b7e5
 # get a specific version
 mod "puppetlabs/stdlib"
 # get latest, don't update thereafter
