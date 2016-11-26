@@ -33,11 +33,11 @@ node default {
 
 node 'agent1','agent2' {
 
-   include '::role::hpcclient'
+   #include '::role::hpcclient'
 
 }
 
 node 'server1' {
 
-  include '::role::hpcsoftware'
+   #include '::role::hpcsoftware'
 }
